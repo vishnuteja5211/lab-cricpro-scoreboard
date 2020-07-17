@@ -1,11 +1,29 @@
 
 
 body {
-	background-image: url('/lab-cricpro-scoreboard/assets/background-image1.png');
+	background-image: url('/assets/background-image1.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;  
 	background-size: cover;
   }
+
+
+  .tooltip {
+	  position: relative;
+	  display: inline-block;
+  }
+
+  .tooltip .tooltiptext {
+	  visibility: hidden;
+	  position: absolute;
+	  z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+	  visibility: visible;
+  }
+
+
 
 
 #logo {
@@ -47,6 +65,8 @@ table {
 	width: 55%;
 	margin-left: 100px;
 	background-color: white;
+	
+	
   }
   
   td,th {
@@ -79,7 +99,7 @@ table {
 	
 }
 table tr {
-	border-bottom: 1px solid #dddddd;
+	border-bottom: 2px solid #dddddd;
 }
 
 th {
